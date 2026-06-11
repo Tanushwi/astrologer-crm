@@ -1,1 +1,1 @@
-# Astrologer CRM\nProject scaffold generated.
+# Astrologer CRM
