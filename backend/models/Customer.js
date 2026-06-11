@@ -1,0 +1,1 @@
+const mongoose=require('mongoose'); module.exports=mongoose.model('Customer',new mongoose.Schema({name:String,phone:String,email:String,birthDate:Date,birthTime:String,birthPlace:String,notes:String},{timestamps:true}));

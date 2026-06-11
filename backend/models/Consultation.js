@@ -1,0 +1,1 @@
+const mongoose=require('mongoose'); module.exports=mongoose.model('Consultation',new mongoose.Schema({customerId:{type:mongoose.Schema.Types.ObjectId,ref:'Customer'},consultationDate:Date,status:String,remarks:String},{timestamps:true}));
